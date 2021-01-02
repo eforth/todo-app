@@ -14,7 +14,7 @@ CREATE TABLE todo (
 )
 ```
 
-#### Environment veriables
+#### Environment variables
 
 Set the DATABASE_URL environment variable on windows by using the following command.
 

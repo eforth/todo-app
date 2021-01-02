@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, redirect, request
+from flask import Flask, render_template, redirect, request
 import os
 import psycopg2
 from psycopg2 import pool
