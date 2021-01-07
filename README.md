@@ -21,3 +21,37 @@ Set the DATABASE_URL environment variable on windows by using the following comm
 ```
 set DATABASE_URL=postgresql://username:password@host:port/database
 ```
+
+#### Full Instructions
+
+Check versions of Python3 and pip3
+
+```
+python3 --version
+pip3 --version
+```
+
+Install pipenv
+
+```
+pip3 install --user pipenv
+```
+
+Create and Change to project directory
+
+```
+mkdir todo-app && cd todo-app
+```
+
+Install dependencies
+
+```
+pipenv install flask werkzeug jinja2 psycopg2
+```
+
+Run app
+
+```
+pipenv run app.py
+```
+
